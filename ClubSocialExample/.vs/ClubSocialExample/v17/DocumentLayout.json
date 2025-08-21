@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\domain\\model\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:domain\\model\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\domain\\model\\invoiceheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:domain\\model\\invoiceheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\domain\\model\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:domain\\model\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\domain\\model\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:domain\\model\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\domain\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:domain\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|c:\\users\\andres\\onedrive - tecnologico de antioquia institucion universitaria\\documentos\\herramientasdeprogramacion2-2025-2\\clubsocialexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1D304F9-82D7-41D2-A3ED-E032517AA046}|ClubSocialExample.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "domain\\model\\InvoiceDetail.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\InvoiceDetail.cs",
+              "RelativeToolTip": "domain\\model\\InvoiceDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T00:01:28.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceHeader.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\InvoiceHeader.cs",
+              "RelativeDocumentMoniker": "domain\\model\\InvoiceHeader.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\InvoiceHeader.cs",
+              "RelativeToolTip": "domain\\model\\InvoiceHeader.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:58:47.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\Guest.cs",
+              "RelativeDocumentMoniker": "domain\\model\\Guest.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\Guest.cs",
+              "RelativeToolTip": "domain\\model\\Guest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:56:09.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Partner.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\Partner.cs",
+              "RelativeDocumentMoniker": "domain\\model\\Partner.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\Partner.cs",
+              "RelativeToolTip": "domain\\model\\Partner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:49:26.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\User.cs",
+              "RelativeDocumentMoniker": "domain\\model\\User.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\User.cs",
+              "RelativeToolTip": "domain\\model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:45:12.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\Person.cs",
+              "RelativeDocumentMoniker": "domain\\model\\Person.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\domain\\model\\Person.cs",
+              "RelativeToolTip": "domain\\model\\Person.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:38:18.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:33:36.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Andres\\OneDrive - Tecnologico de Antioquia Institucion Universitaria\\Documentos\\herramientasDeProgramacion2-2025-2\\ClubSocialExample\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T23:29:19.145Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
