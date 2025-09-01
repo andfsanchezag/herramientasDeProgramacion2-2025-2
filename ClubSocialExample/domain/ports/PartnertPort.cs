@@ -13,5 +13,6 @@ namespace ClubSocialExample.domain.ports
         public Partner FindByDocument(Partner partner);
         public Partner FindByUserName(Partner partner);
         public void Save(Partner partner);
+        public void Update(Partner partner);
     }
 }
