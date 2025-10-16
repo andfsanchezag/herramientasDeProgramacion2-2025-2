@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.domain.model
 {
-    internal class Person
+    public class Person
     {
         private ulong id;
         private string name;

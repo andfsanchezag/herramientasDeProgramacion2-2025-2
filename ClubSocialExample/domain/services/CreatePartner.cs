@@ -8,9 +8,14 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.domain.services
 {
-    internal class CreatePartner
+    public class CreatePartner
     {
-        private PartnertPort partnerPort;
+        public PartnertPort partnerPort { get; set; }
+
+        public CreatePartner() {}
+        public CreatePartner(PartnertPort partnerPort) {
+            this.partnerPort = partnerPort;
+        }
 
         public void Create(Partner partner) {
             partner.Type = "regular";
@@ -24,7 +29,6 @@ namespace ClubSocialExample.domain.services
                 throw new Exception("ya existe una persona registrada con ese nombre de usuario");
             }
             partnerPort.Save(partner);
-
         }
     }
 }

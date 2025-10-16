@@ -9,7 +9,7 @@ using ClubSocialExample.domain.model;
 
 namespace ClubSocialExample.application.adapters.input.builders
 {
-    internal class PartnerBuilder
+    public class PartnerBuilder
     {
         private PersonValidator personValidator;
         private UserValidator userValidator;

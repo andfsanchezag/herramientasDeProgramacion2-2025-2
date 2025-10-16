@@ -9,10 +9,14 @@ using System.Threading.Tasks;
 namespace ClubSocialExample.domain.services
 {
     internal class ActivateGuest
-
     {
-        private GuestPort guestPort;
-        private PartnertPort partnertPort;
+        public GuestPort guestPort { get; set; }
+        public PartnertPort partnertPort { get; set; }
+        public ActivateGuest() {}
+        public ActivateGuest(GuestPort guestPort, PartnertPort partnertPort) {
+            this.guestPort = guestPort;
+            this.partnertPort = partnertPort;
+        }
         public void Activate(Guest guest) {
             guest = guestPort.FindByDocument(guest);
             if (guest == null) {
@@ -24,7 +28,6 @@ namespace ClubSocialExample.domain.services
             }
             guest.Status = true;
             guestPort.Update(guest);
-
         }
     }
 }

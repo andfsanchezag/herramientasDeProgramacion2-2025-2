@@ -8,14 +8,20 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.application.usecases
 {
-    internal class AdminUseCase
+    public class AdminUseCase
     {
-        private CreatePartner createPartner;
+        public CreatePartner createPartner { get; set; }
 
-        public void CreatePartner(Partner partner) {
-            createPartner.Create(partner);
+        public AdminUseCase() { }
 
+        public AdminUseCase(CreatePartner createPartner)
+        {
+            this.createPartner = createPartner;
         }
 
+        public void CreatePartner(Partner partner)
+        {
+            createPartner.Create(partner);
+        }
     }
 }

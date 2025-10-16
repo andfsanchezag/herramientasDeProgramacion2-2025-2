@@ -10,11 +10,19 @@ namespace ClubSocialExample.domain.services
 {
     internal class CreateGuest
     {
-        private GuestPort guestPort;
-        private PartnertPort partnerPort;
-        public void Create(Guest guest) {
+        public GuestPort guestPort { get; set; }
+        public PartnertPort partnerPort { get; set; }
+        public CreateGuest() { }
+        public CreateGuest(GuestPort guestPort, PartnertPort partnerPort)
+        {
+            this.guestPort = guestPort;
+            this.partnerPort = partnerPort;
+        }
+        public void Create(Guest guest)
+        {
             guest.Status = false;
-            if (guestPort.FindByDocument(guest) != null) {
+            if (guestPort.FindByDocument(guest) != null)
+            {
                 throw new Exception("ya existe un invitado con esa cedula");
             }
             if (guest.Partner == null)
@@ -22,10 +30,12 @@ namespace ClubSocialExample.domain.services
                 throw new Exception("no existe un socio con la cedula enviada");
             }
             Partner partner = partnerPort.FindByDocument(guest.Partner);
-            if ( partner== null) { 
+            if (partner == null)
+            {
                 throw new Exception("no existe un socio con la cedula enviada");
             }
-            if (guestPort.FindByUserName(guest) != null) {
+            if (guestPort.FindByUserName(guest) != null)
+            {
                 throw new Exception("ya existe una persona con ese nombre de usuario");
             }
             guestPort.Save(guest);

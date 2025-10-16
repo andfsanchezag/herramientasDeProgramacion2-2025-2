@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.domain.model
 {
-    internal class Partner : User
+    public class Partner : User
     {
         private long idParnert;
         private double amount;

@@ -9,18 +9,19 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.application.adapters.input
 {
-    internal class AdminInputs
-    {   private PartnerBuilder partnerBuilder;
+    public class AdminInputs
+    {
+        private PartnerBuilder partnerBuilder;
         private AdminUseCase adminUseCase;
-        public AdminInputs()
+        public AdminInputs(PartnerBuilder partnerBuilder, AdminUseCase adminUseCase)
         {
+            this.partnerBuilder = partnerBuilder;
+            this.adminUseCase = adminUseCase;
         }
 
         public void CreatePartner(string name, string document, string cellphone, string username, string password) {
             Partner partner = partnerBuilder.create(name, document, cellphone, username, password);
             adminUseCase.CreatePartner(partner);
         }
-
-
     }
 }

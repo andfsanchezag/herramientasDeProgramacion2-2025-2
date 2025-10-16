@@ -1,3 +1,6 @@
+using ClubSocialExample.infraestructure.GUI;
+using ClubSocialExample.infraestructure.config;
+
 namespace ClubSocialExample
 {
     internal static class Program
@@ -11,7 +14,8 @@ namespace ClubSocialExample
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Config config = new Config(null, null);
+            Application.Run(new CreatePartnerForm(config.AdminInputs));
         }
     }
 }

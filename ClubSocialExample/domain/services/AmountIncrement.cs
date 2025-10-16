@@ -10,7 +10,11 @@ namespace ClubSocialExample.domain.services
 {
     internal class AmountIncrement
     {
-        PartnertPort partnertPort;
+        public PartnertPort partnertPort { get; set; }
+        public AmountIncrement() {}
+        public AmountIncrement(PartnertPort partnertPort) {
+            this.partnertPort = partnertPort;
+        }
         public void Increment(Partner partner, double amount) { 
             partner = partnertPort.FindByDocument(partner);
             if (partner == null) {

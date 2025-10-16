@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.domain.ports
 {
-    internal interface PartnertPort
+    public interface PartnertPort
     {
         public int CountActiveGuest(Partner partner);
         public Partner FindByDocument(Partner partner);
