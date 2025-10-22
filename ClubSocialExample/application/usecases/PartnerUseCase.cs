@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.application.usecases
 {
-    internal class PartnerUseCase
+    public class PartnerUseCase
     {
         private AmountIncrement amountIncrement;
         private CreateGuest createGuest;

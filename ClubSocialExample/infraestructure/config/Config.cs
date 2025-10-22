@@ -9,10 +9,11 @@ using ClubSocialExample.application.usecases;
 using ClubSocialExample.domain.ports;
 using ClubSocialExample.domain.services;
 using ClubSocialExample.domain.model;
+using ClubSocialExample.infraestructure.adapters.output;
 
 namespace ClubSocialExample.infraestructure.config
 {
-    internal class Config
+    public class Config
     {
         public PartnertPort PartnerPort { get; private set; }
         public GuestPort GuestPort { get; private set; }
@@ -26,26 +27,42 @@ namespace ClubSocialExample.infraestructure.config
         public PartnerUseCase PartnerUseCase { get; private set; }
 
         public AdminInputs AdminInputs { get; private set; }
+        public PartnerInputs PartnerInputs { get; private set; }
         public PartnerBuilder PartnerBuilder { get; private set; }
+        public GuestBuilder GuestBuilder { get; private set; }
 
-        public Config(PartnertPort partnerPort, GuestPort guestPort)
+        public Config()
         {
-            PartnerPort = partnerPort;
-            GuestPort = guestPort;
+            try
+            {
+                // Puertos de base de datos
+                GuestPort = new MySqlGuestPort();
+                PartnerPort = new MySqlPartnerPort();
 
-            // Servicios
-            CreatePartnerService = new CreatePartner(partnerPort);
-            AmountIncrementService = new AmountIncrement(partnerPort);
-            CreateGuestService = new CreateGuest(guestPort, partnerPort);
-            ActivateGuestService = new ActivateGuest(guestPort, partnerPort);
+                // Servicios
+                CreatePartnerService = new CreatePartner(PartnerPort);
+                AmountIncrementService = new AmountIncrement(PartnerPort);
+                CreateGuestService = new CreateGuest(GuestPort, PartnerPort);
+                ActivateGuestService = new ActivateGuest(GuestPort, PartnerPort);
 
-            // Casos de uso
-            AdminUseCase = new AdminUseCase(CreatePartnerService);
-            PartnerUseCase = new PartnerUseCase(AmountIncrementService, CreateGuestService, ActivateGuestService);
+                // Casos de uso
+                AdminUseCase = new AdminUseCase(CreatePartnerService);
+                PartnerUseCase = new PartnerUseCase(AmountIncrementService, CreateGuestService, ActivateGuestService);
 
-            // Adapters/Inputs
-            PartnerBuilder = new PartnerBuilder();
-            AdminInputs = new AdminInputs(PartnerBuilder, AdminUseCase);
+                // Builders
+                PartnerBuilder = new PartnerBuilder();
+                GuestBuilder = new GuestBuilder();
+
+                // Adapters/Inputs
+                AdminInputs = new AdminInputs(PartnerBuilder, AdminUseCase);
+                PartnerInputs = new PartnerInputs(PartnerUseCase, GuestBuilder);
+            }
+            catch (System.Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show($"Error al inicializar la aplicación: {ex.Message}", "Error", 
+                    System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                throw;
+            }
         }
     }
 }

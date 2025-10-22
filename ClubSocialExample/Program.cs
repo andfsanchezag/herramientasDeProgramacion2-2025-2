@@ -11,11 +11,17 @@ namespace ClubSocialExample
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Config config = new Config(null, null);
-            Application.Run(new CreatePartnerForm(config.AdminInputs));
+            try
+            {
+                Config config = new Config();
+                Application.Run(new CreatePartnerForm(config.AdminInputs));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al iniciar la aplicación: {ex.Message}", "Error Fatal",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

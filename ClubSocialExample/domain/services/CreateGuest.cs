@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.domain.services
 {
-    internal class CreateGuest
+    public class CreateGuest
     {
         public GuestPort guestPort { get; set; }
         public PartnertPort partnerPort { get; set; }

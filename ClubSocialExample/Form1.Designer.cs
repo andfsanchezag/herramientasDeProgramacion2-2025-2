@@ -28,12 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            lblTitulo = new Label();
+            btnIniciarAdmin = new Button();
+            lblDocumento = new Label();
+            txtDocumento = new TextBox();
+            btnIniciarSocio = new Button();
+            SuspendLayout();
+            // 
+            // lblTitulo
+            // 
+            lblTitulo.AutoSize = true;
+            lblTitulo.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            lblTitulo.Location = new Point(12, 9);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(201, 25);
+            lblTitulo.TabIndex = 0;
+            lblTitulo.Text = "Club Social - Bienvenido";
+            // 
+            // btnIniciarAdmin
+            // 
+            btnIniciarAdmin.Location = new Point(12, 47);
+            btnIniciarAdmin.Name = "btnIniciarAdmin";
+            btnIniciarAdmin.Size = new Size(200, 30);
+            btnIniciarAdmin.TabIndex = 1;
+            btnIniciarAdmin.Text = "Iniciar como Administrador";
+            btnIniciarAdmin.UseVisualStyleBackColor = true;
+            btnIniciarAdmin.Click += btnIniciarAdmin_Click;
+            // 
+            // lblDocumento
+            // 
+            lblDocumento.AutoSize = true;
+            lblDocumento.Location = new Point(12, 100);
+            lblDocumento.Name = "lblDocumento";
+            lblDocumento.Size = new Size(121, 15);
+            lblDocumento.TabIndex = 2;
+            lblDocumento.Text = "Documento del Socio:";
+            // 
+            // txtDocumento
+            // 
+            txtDocumento.Location = new Point(12, 118);
+            txtDocumento.Name = "txtDocumento";
+            txtDocumento.Size = new Size(200, 23);
+            txtDocumento.TabIndex = 3;
+            // 
+            // btnIniciarSocio
+            // 
+            btnIniciarSocio.Location = new Point(12, 147);
+            btnIniciarSocio.Name = "btnIniciarSocio";
+            btnIniciarSocio.Size = new Size(200, 30);
+            btnIniciarSocio.TabIndex = 4;
+            btnIniciarSocio.Text = "Iniciar como Socio";
+            btnIniciarSocio.UseVisualStyleBackColor = true;
+            btnIniciarSocio.Click += btnIniciarSocio_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(384, 261);
+            Controls.Add(btnIniciarSocio);
+            Controls.Add(txtDocumento);
+            Controls.Add(lblDocumento);
+            Controls.Add(btnIniciarAdmin);
+            Controls.Add(lblTitulo);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Club Social";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblTitulo;
+        private Button btnIniciarAdmin;
+        private Label lblDocumento;
+        private TextBox txtDocumento;
+        private Button btnIniciarSocio;
     }
 }

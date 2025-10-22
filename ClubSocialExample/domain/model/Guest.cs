@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.domain.model
 {
-    internal class Guest:User
+    public class Guest : User
     {
         private ulong idGuest;
         private Partner partner;
@@ -14,6 +14,6 @@ namespace ClubSocialExample.domain.model
 
         public ulong IdGuest { get => idGuest; set => idGuest = value; }
         public bool Status { get => status; set => status = value; }
-        internal Partner Partner { get => partner; set => partner = value; }
+        public Partner Partner { get => partner; set => partner = value; }
     }
 }

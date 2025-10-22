@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ClubSocialExample.domain.services
 {
-    internal class AmountIncrement
+    public class AmountIncrement
     {
         public PartnertPort partnertPort { get; set; }
         public AmountIncrement() {}

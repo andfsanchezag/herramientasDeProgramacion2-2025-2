@@ -4,10 +4,25 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="infraestructure\GUI\ActivateGuestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="infraestructure\GUI\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="infraestructure\GUI\CreateGuestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="infraestructure\GUI\CreatePartnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="infraestructure\GUI\GuestListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="infraestructure\GUI\IncrementAmountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="infraestructure\GUI\PartnerForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
